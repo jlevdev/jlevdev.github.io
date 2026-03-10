@@ -90,7 +90,7 @@ function App() {
             </li>
             <li>
               <FontAwesomeIcon icon={faLocationDot} />
-              <span className="padded">Portland, ME</span>
+              <span className="padded">Lisbon Falls, ME</span>
             </li>
             <li>
               <FontAwesomeIcon icon={faLinkedin} />
@@ -143,18 +143,22 @@ function App() {
 
             <ul>
               <li>
-                Identified and lead overhaul of ADA issues in React front-end
+                Lead overhaul of WCAG 2.2 compliance in React front-end
               </li>
               <li>
-                Developed new Power BI connector for highly customized CMS
+                Developed Power BI connector to integrate with SQL and MongoDB
               </li>
               <li>
-                Upgraded user analytics capture using MongoDB and SQL databases
+                Assisted in major upgrade of back-end framework and CMS
               </li>
-              <li>Assisted in major upgrade of back-end framework and CMS</li>
               <li>
-                Routinely developed new features using React for front-end
-                application
+                Routinely developed new major UI components with React
+              </li>
+              <li>
+                Routinely participated in design and feature review process
+              </li>
+              <li>
+                Participated in on call rotation
               </li>
             </ul>
 
@@ -239,61 +243,6 @@ function App() {
               <li>Worked on 3+ projects simultaneously</li>
               <li>Designed and implemented complex user interfaces</li>
             </ul>
-          </div>
-          <div className="text-block projects" data-html2canvas-ignore="true">
-            <h3 style={h3BorderBottom}>Projects</h3>
-            <h4>WrldBldr</h4>
-            <div className="project-link">
-              <FontAwesomeIcon icon={faGithub} />
-              <a href="https://github.com/jlevdev/WrldBldr">
-                Check out the code.
-              </a>
-            </div>
-            <ul className="skill-list">
-              <li>React.js</li>
-              <li>Django</li>
-              <li>MaterialUI</li>
-              <li>Sass</li>
-            </ul>
-            <p>
-              Over the pandemic I found Dungeons and Dragons to be a great hobby
-              to connect with my friends remotely. Though as I created my own
-              campaign I found the online tools for DMs (Dungeon Masters)
-              lacking and decided to begin the creation of my own set of tools.
-              Wrld Bldr (World Builder) is a work in progress with the goal
-              being a tool that can create settlements, characters, maps,
-              invetories and more for the DM. My goal is to take some of the
-              tedium out of creating a world and generate a town or a region for
-              the DM, then allow them to customize it to fit their vision.
-            </p>
-            <h4>Fab Lab Reservation System</h4>
-            <div className="project-link">
-              <FontAwesomeIcon icon={faGithub} />
-              <a href="https://github.com/jlevdev/IMRC_AM_2k17">
-                Check out the code.
-              </a>
-            </div>
-            <ul className="skill-list">
-              <li>PHP</li>
-              <li>jQuery</li>
-              <li>WordPress</li>
-              <li>CSS</li>
-            </ul>
-            <p>
-              My capstone project for college was a WordPress site with a custom
-              plugin that created a reservation and inventory system for the
-              University of Maine campus Fabrication Lab or "Fab Lab". The
-              system, which was operational for 3 years, allowed patrons of the
-              Fab Lab to reserve equipment like 3D printers, cameras, laser
-              cutters and more. It kept track of costs for certain equipment
-              like the 3D printers, which were charged by the amount of material
-              used. The staff of the Fab Lab could enter in new equipment, mark
-              the equipment as under unavailable for maintenance, keep track of
-              the available materials for different pieces of equipment, manage
-              reservation times and schedules, and more. The system also came
-              with a custom page for tablets so that there could be an
-              interactive reservation and checkout window on site.
-            </p>
           </div>
         </div>
         <div className="right-col col-4">
