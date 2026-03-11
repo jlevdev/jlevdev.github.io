@@ -3,6 +3,7 @@
   "version": "0.1.1",
   "private": true,
   "homepage": "https://jlevdev.github.io",
+  "packageManager": "pnpm@10.32.1",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.0",
     "@fortawesome/free-brands-svg-icons": "^6.1.0",
@@ -34,7 +35,12 @@
     "predeploy": "npm run build",
     "gh-clean": "gh-pages-clean",
     "debug_deploy": "gh-pages-clean && npm run build && gh-pages -d build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "lint": "oxlint src/**/*.{js,jsx}",
+    "lint:fix": "oxlint --fix src/**/*.{js,jsx}"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,mjs,cjs}": "pnpm run lint"
   },
   "eslintConfig": {
     "extends": [
@@ -55,8 +61,10 @@
     ]
   },
   "devDependencies": {
+    "@biomejs/biome": "^2.4.6",
     "concurrently": "^7.0.0",
     "gh-pages": "^3.2.3",
+    "oxlint": "^1.52.0",
     "sass": "^1.49.9"
   }
 }
